@@ -14,9 +14,13 @@ This set the conceptual basis for later tools: **conservation**, **structure** a
 
 ### First-generation in silico tools (Early 2000s)
 
-#### [SIFT][sift]
+#### [SIFT][sift] - Sorting Intolerant From Tolerant 
 **Concept:** Uses sequence homology and conservation to predict whether an amino acid substitution is tolerated or deleterious.
 **Key idea:** Strongly conserved positions are likely functionally important; changes there might be deleterious.
+
+#### [PolyPhen][polyphen]/[Polyphen-2][polyphen2]
+**Concept:** Combines sequence conservation, protein structural features and annotation to classify missense variants.
+**Key idea:** Integrate multiple features (sequence + structure) and uses probabilistic models.
 
 
 ## Appendix
@@ -29,3 +33,4 @@ Deleterious -
 [prosite]: https://en.wikipedia.org/wiki/PROSITE
 [pfam]: https://en.wikipedia.org/wiki/Pfam
 [sift]: https://pmc.ncbi.nlm.nih.gov/articles/PMC168916/
+[polyphen]: https://pmc.ncbi.nlm.nih.gov/articles/PMC137415/
