@@ -12,8 +12,20 @@ There where some early use of multiple sequence alignment and domain databases s
 to infer the potential impact of genetic variations.
 This set the conceptual basis for later tools: **conservation**, **structure** and **function**.
 
+### First-generation in silico tools (Early 2000s)
 
+#### [SIFT][sift]
+**Concept:** Uses sequence homology and conservation to predict whether an amino acid substitution is tolerated or deleterious.
+**Key idea:** Strongly conserved positions are likely functionally important; changes there might be deleterious.
+
+
+## Appendix
+
+### Lexicon
+
+Deleterious - 
 
 
 [prosite]: https://en.wikipedia.org/wiki/PROSITE
 [pfam]: https://en.wikipedia.org/wiki/Pfam
+[sift]: https://pmc.ncbi.nlm.nih.gov/articles/PMC168916/
